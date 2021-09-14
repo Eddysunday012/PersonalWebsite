@@ -7,82 +7,85 @@
 {% block content %}
 {% load static %}
 
-<section id="About" class="bg-primary ">
+<div class="container-fluid bg-primary">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 align-self-center">
-                <img src="{% static 'images/propicwebsite.png' %}" style="width:256px;height:256px;"></img>
-            </div>  
+        <section id="About" class="row">
+            <div class="row my-auto">
+                <div class="col-md-6 align-self-center mt-5 mb-5">
+                    <img src="{% static 'images/propicwebsite.png' %}" style="width:256px;height:256px;"></img>
+                </div>  
 
-            <div class="col-md-6 align-self-center">
-                <h3>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
-                    so i have another 6 coloums more i can create and after that i will have to declare another 
-                    "row " class , though i can declare the new row class in the same container 
-                </h3>
-            </div>  
-        </div>
+                <div class="col-md-6 align-self-center">
+                    <h3>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
+                        so i have another 6 coloums more i can create and after that i will have to declare another 
+                        "row " class , though i can declare the new row class in the same container 
+                    </h3>
+                </div>  
+            </div>
+        </section>
     </div>
-    <!-- /.container-->
-</section>
+</div>
 
-<section id="Front_End" class="bg-white">
+<div class="container-fluid bg-white">
     <div class="container">
-        <div class="row">
+        <section id="Front_End" class="row">
+            <div class="row my-auto">
 
-            <div class="col-md-6">
-                <h3>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
-                    so i have another 9 columns more i can create and after that i will have to declare another 
-                    "row " class , though I can declare the new row class in the same container 
-                </h3>
-            </div>  
+                <div class="col-md-6 align-self-center">
+                    <h3>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
+                        so i have another 6 coloums more i can create and after that i will have to declare another 
+                        "row " class , though i can declare the new row class in the same container 
+                    </h3>
+                </div>  
 
-            <div class="col-md-6">
-                <img src="{% static 'images/FrontEndLogoPic.png' %}" class="float-right"></img>
-            </div>  
+                <div class="col-md-6 align-self-center mt-5 mb-5">
+                    <img src="{% static 'images/FrontEndLogoPic.png' %}" class="float-right"></img>
+                </div>
 
-                    
-        </div>
+            </div>
+        </section>
     </div>
-    <!-- /.container-->
-</section>
+</div>
 
-<section id="Back_End" class="bg-primary ">
+<div class="container-fluid bg-primary">
     <div class="container">
-        <div class="row">
-            
-            <div class="col-md-6 align-self-center">
-                <img src="{% static 'images/BackEndLogo.png' %}"></img>
-            </div>  
+        <section id="Back_End" class="row">
+            <div class="row my-auto">
+                <div class="col-md-6 align-self-center mt-5 mb-5">
+                    <img src="{% static 'images/BackEndLogo.png' %}"></img>
+                </div>  
 
-            <div class="col-md-6 align-self-center">
-                <h3>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
-                    so i have another 6 coloums more i can create and after that i will have to declare another 
-                    "row " class , though i can declare the new row class in the same container 
-                </h3>
-            </div>  
-
-            
-        </div>
+                <div class="col-md-6 align-self-center">
+                    <h3>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
+                        so i have another 6 coloums more i can create and after that i will have to declare another 
+                        "row " class , though i can declare the new row class in the same container 
+                    </h3>
+                </div>  
+            </div>
+        </section>
     </div>
-    <!-- /.container-->
-</section>
+</div>
 
-<section id="Data_Science" class="bg-white ">
+<div class="container-fluid bg-white">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h3>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
-                    so i have another 9 columns more i can create and after that i will have to declare another 
-                    "row " class , though I can declare the new row class in the same container 
-                </h3>
-            </div>  
+        <section id="DataScience" class="row">
+            <div class="row my-auto">
 
-            <div class="col-md-6">
-                <img src="{% static 'images/DataScienceLogo.png' %}" class="float-right"></img>
-            </div>  
-        </div>
+                <div class="col-md-6 align-self-center">
+                    <h3>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
+                        so i have another 6 coloums more i can create and after that i will have to declare another 
+                        "row " class , though i can declare the new row class in the same container 
+                    </h3>
+                </div>  
+
+                <div class="col-md-6 align-self-center mt-5 mb-5">
+                    <img src="{% static 'images/DataScienceLogo.png' %}" class="float-right"></img>
+                </div>
+
+            </div>
+        </section>
     </div>
-    <!-- /.container-->
-</section>
+</div>
+
 
 {% endblock content %}
