@@ -7,8 +7,9 @@ section {
     height: 100vh;
 }
 
-h2 {
-    color:white
+p {
+    font-family: 'Segoe UI';
+    font-size: 24pt;
 }
 
 .i-am-centered { 
@@ -16,5 +17,21 @@ h2 {
   border: 3px solid green;
   padding: 10px;
 
+}
+
+.white-text {
+    color: #F3F3F3;
+}
+
+.gray-text {
+    color: #707070;
+}
+
+#About {
+    background-color: #5FA8D3;
+}
+
+#Back_End {
+    background-color: #D9E8D8;
 }
 

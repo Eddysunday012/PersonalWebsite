@@ -7,19 +7,19 @@
 {% block content %}
 {% load static %}
 
-<div class="container-fluid bg-primary">
+<div id="About" class="container-fluid">
     <div class="container">
-        <section id="About" class="row">
+        <section  class="row">
             <div class="row my-auto">
                 <div class="col-md-6 align-self-center mt-5 mb-5">
-                    <img src="{% static 'images/propicwebsite.png' %}" style="width:256px;height:256px;"></img>
+                    <img src="{% static 'images/propicwebsite.png' %}" style="width:256px;height:256px;" class="float-center"></img>
                 </div>  
 
                 <div class="col-md-6 align-self-center">
-                    <h3>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
-                        so i have another 6 coloums more i can create and after that i will have to declare another 
-                        "row " class , though i can declare the new row class in the same container 
-                    </h3>
+                    <p class="white-text">Hi, I'm Ethan. I'm a software developer from
+                        Los Angeles, California. Scroll Down to learn
+                        more about me! 
+                    </p>
                 </div>  
             </div>
         </section>
@@ -31,35 +31,37 @@
         <section id="Front_End" class="row">
             <div class="row my-auto">
 
+                <div class="col-md-6 align-self-center mt-5 mb-5">  
+                    <img src="{% static 'images/FrontEndLogoPic.png' %}" class="float-center"></img>
+                </div>
+
                 <div class="col-md-6 align-self-center">
-                    <h3>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
+                    <p class="gray-text">hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
                         so i have another 6 coloums more i can create and after that i will have to declare another 
                         "row " class , though i can declare the new row class in the same container 
-                    </h3>
+                    </p>
                 </div>  
 
-                <div class="col-md-6 align-self-center mt-5 mb-5">
-                    <img src="{% static 'images/FrontEndLogoPic.png' %}" class="float-right"></img>
-                </div>
+                
 
             </div>
         </section>
     </div>
 </div>
 
-<div class="container-fluid bg-primary">
+<div id="Back_End" class="container-fluid">
     <div class="container">
-        <section id="Back_End" class="row">
+        <section  class="row">
             <div class="row my-auto">
                 <div class="col-md-6 align-self-center mt-5 mb-5">
-                    <img src="{% static 'images/BackEndLogo.png' %}"></img>
+                    <img src="{% static 'images/BackEndLogo.png' %}" class="float-center"></img>
                 </div>  
 
                 <div class="col-md-6 align-self-center">
-                    <h3>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
+                    <p class="gray-text">hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
                         so i have another 6 coloums more i can create and after that i will have to declare another 
                         "row " class , though i can declare the new row class in the same container 
-                    </h3>
+                    </p>
                 </div>  
             </div>
         </section>
@@ -71,16 +73,18 @@
         <section id="DataScience" class="row">
             <div class="row my-auto">
 
+                <div class="col-md-6 align-self-center mt-5 mb-5">
+                    <img src="{% static 'images/DataScienceLogo.png' %}" class="float-center"></img>
+                </div>
+
                 <div class="col-md-6 align-self-center">
-                    <h3>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
+                    <p class="gray-text">hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
                         so i have another 6 coloums more i can create and after that i will have to declare another 
                         "row " class , though i can declare the new row class in the same container 
-                    </h3>
+                    </p>
                 </div>  
 
-                <div class="col-md-6 align-self-center mt-5 mb-5">
-                    <img src="{% static 'images/DataScienceLogo.png' %}" class="float-right"></img>
-                </div>
+                
 
             </div>
         </section>
