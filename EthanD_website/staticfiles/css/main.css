@@ -28,6 +28,10 @@ p {
     opacity: 1;
 }
 
+.nav-text {
+    font-family: 'Segoe UI';
+}
+
 .white-text {
     color: #F3F3F3;
 }
