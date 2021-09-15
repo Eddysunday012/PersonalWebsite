@@ -19,6 +19,11 @@ p {
 
 }
 
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
 .white-text {
     color: #F3F3F3;
 }
