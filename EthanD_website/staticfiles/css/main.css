@@ -9,7 +9,7 @@ section {
 
 p {
     font-family: 'Segoe UI';
-    font-size: 24pt;
+    font-size: 18pt;
 }
 
 .i-am-centered { 
@@ -21,7 +21,11 @@ p {
 
 .fade-in {
     opacity: 0;
-    transition: opacity 250ms ease-in;
+    transition: opacity 500ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
 }
 
 .white-text {

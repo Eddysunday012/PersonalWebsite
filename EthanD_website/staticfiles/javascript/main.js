@@ -23,3 +23,5 @@ appearOptions);
 faders.forEach(fader => {
   appearOnScroll.observe(fader);
 });
+
+console.log('hello world');
