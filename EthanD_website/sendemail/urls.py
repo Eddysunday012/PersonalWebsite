@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
 
-
-def sendEmail(request):
-    return 0
+urlpatterns = [
+    path('sendemail/', views.sendEmail, name='sendEmail'),
+]
